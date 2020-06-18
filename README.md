@@ -4,7 +4,7 @@
  
  ![screenshot](Images/Screenshot_1.png)
  
- ![screenshot](Images/Screenshot3_.png)
+ ![screenshot](Images/Screenshot_3.png)
 
  ![screenshot](Images/Screenshot_2.png)
 
