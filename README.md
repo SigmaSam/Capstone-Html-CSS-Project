@@ -2,11 +2,13 @@
 
 > The project for the HTML & CSS Capstone Project is based on an online shop, fit with a responsive design for desktop, tabes and smartphones.
  
- ![screenshot](Images/screenshot1.png)
+ ![screenshot](Images/Screenshot_1.png)
  
- ![screenshot](Images/screenshot2.png)
+ ![screenshot](Images/Screenshot3_.png)
 
- ![screenshot](Images/screenshot3.png)
+ ![screenshot](Images/Screenshot_2.png)
+
+ ![screenshot](Images/Screenshot_4.png)
 
 
  Additional description about the project and its features.
@@ -15,11 +17,11 @@
 
 - HTML
 - CSS
-- Bootstrap
+- Bootstrap 4
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/SigmaSam/Capstone-Html-CSS-Project/development/index.html)
 
 ## Getting Started
 
@@ -48,7 +50,7 @@ Feel free to check the [issues page](https://github.com/SigmaSam/Capstone-Html-C
 Give a  if you like this project!
 
 ## Acknowledgments
-
+-[Original design Idea](https://www.behance.net/M_Awad)
 - Hat tip to anyone whose code was used.
 - Inspiration.
 - etc.
