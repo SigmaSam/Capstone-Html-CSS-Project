@@ -1,10 +1,13 @@
+html {
+  overflow-x: hidden;
+}
+
 .nav__Bar {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   background-color: #383838;
   font-family: Helvetica, Arial, sans-serif;
-  word-wrap: none;
   padding: 1.5rem;
   padding-bottom: 0.5rem;
   margin-top: -1rem;
@@ -14,14 +17,12 @@
 .nav__Bar a {
   text-transform: uppercase;
   text-decoration: none;
-  word-wrap: none;
 }
 
 .nav__Options {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  word-wrap: none;
 }
 
 .nav__Options a {
@@ -146,7 +147,7 @@
 }
 
 .search__Options {
-  padding: 1.44rem 3.4rem;
+  padding: 1.9% 3%;
   margin-right: -0.2rem;
   border: none;
   -webkit-appearance: none;
@@ -158,27 +159,25 @@
 }
 
 .search__Specify {
-  padding: 1.5rem 7rem;
+  padding: 2% 5%;
   border: none;
 }
 
 .search__Button {
-  padding: 1.75rem 7rem;
+  padding: 2.4% 5%;
   border: none;
   background-color: #383838;
   color: white;
   font-size: 1rem;
-  font-size: bold;
   text-decoration: none;
 }
 
 .search__Button:hover {
-  padding: 1.75rem 7rem;
   border: none;
   background-color: #383838;
   color: white;
   font-size: 1rem;
-  font-size: bold;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -187,7 +186,7 @@
 }
 
 .search__Author {
-  padding: 1.5rem 2rem;
+  padding: 2% 3%;
   margin-left: -0.2rem;
   border: none;
   text-align: center;
@@ -223,6 +222,20 @@
 .hot__Purchase {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+}
+
+.hot__Cart {
+  border-radius: 3px;
+  display: none;
+}
+
+.hot__PriceS {
+  margin-top: -1rem;
+  white-space: nowrap;
+}
+
+.hot__PurchaseS {
+  white-space: nowrap;
 }
 
 .hot__Button {
@@ -398,8 +411,142 @@
 .cont__Context {
   color: gray;
   font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+  margin-top: -1rem;
+  margin-bottom: -0.3rem;
 }
 
-.search__Boxes {
-  white-space: nowrap;
+.resu__Container div {
+  max-height: 297px;
+}
+
+.resu__Container h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cont__Date {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .hot__Add img {
+    width: 100%;
+  }
+
+  .result__Search {
+    margin-left: -4rem;
+  }
+
+  .search__Boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 2%;
+    min-width: 220px;
+  }
+
+  .search__Options {
+    width: 100%;
+    text-align: center;
+    min-width: 220px;
+  }
+
+  .search__Specify {
+    width: 100%;
+    margin-top: 0.3%;
+    text-align: center;
+    min-width: 220px;
+  }
+
+  .search__Button {
+    width: 100%;
+    margin-top: 0.3%;
+    text-align: center;
+    min-width: 220px;
+  }
+
+  .search__Author {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.3%;
+    margin-left: 0.05%;
+  }
+
+  .main__authors {
+    margin-left: 0.002%;
+  }
+
+  .search__Area p {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .hot__Content {
+    min-height: 175px;
+  }
+
+  .hot__Content h3 {
+    font-size: 1.2rem;
+  }
+
+  .hot__Price {
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .hot__Purchase {
+    display: none;
+  }
+
+  .hot__PriceS {
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .hot__PurchaseS {
+    display: none;
+  }
+
+  .hot__Cart {
+    display: block;
+    border-radius: 20px;
+    width: 60px;
+  }
+
+  .resu__Container div {
+    max-height: 275px;
+    white-space: nowrap;
+  }
+
+  .resu__check {
+    display: none;
+  }
+
+  .resu__Container {
+    grid-column: 1/5;
+  }
+
+  .resu__Container button {
+    font-size: 1rem;
+  }
+
+  .resu__Container p {
+    font-size: 0.8rem;
+    margin-bottom: -0.1rem;
+  }
+
+  .footer__Capsule {
+    display: none;
+  }
 }
