@@ -17,7 +17,6 @@ body {
   padding: 1.5rem;
   padding-bottom: 0.5rem;
   margin-top: -1rem;
-  width: 100%;
 }
 
 .nav__Bar a {
@@ -93,7 +92,6 @@ body {
   font-weight: bold;
   text-decoration: none;
   align-items: center;
-  width: 10%;
   height: auto;
   white-space: nowrap;
 }
@@ -153,6 +151,8 @@ body {
 }
 
 .search__Options {
+  justify-content: center;
+  text-align: center;
   padding: 1.9% 3%;
   margin-right: -0.2rem;
   border: none;
@@ -365,8 +365,9 @@ body {
 }
 
 .footer__Left {
+  padding: 0 8rem;
   font-size: 0.8rem;
-  justify-content: center;
+  justify-content: space-around;
   text-align: justify;
 }
 
@@ -378,23 +379,10 @@ body {
   font-size: 1rem;
 }
 
-.footer__Right {
-  justify-content: space-evenly;
-}
-
 .footer__Right h6 {
   color: #d35266;
   border-bottom: 1px solid #d35266;
-}
-
-.footer__Right ul {
-  list-style: none;
-  font-size: 0.8rem;
-  
-}
-
-.footer__links {
-  justify-content: flex-start;
+  margin: 0 auto;
 }
 
 .Copyright {
@@ -452,6 +440,11 @@ body {
   h2 {
     font-size: 1.2rem;
     font-weight: bold;
+  }
+
+  .search__Area p {
+    font-weight: lighter;
+    padding: 0 1rem;
   }
 
   .hot__Add img {
@@ -575,5 +568,22 @@ body {
 
   .footer__Right {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .footer__Capsule {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer__Left {
+    text-align: justify;
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer__Left {
+    text-align: justify;
   }
 }

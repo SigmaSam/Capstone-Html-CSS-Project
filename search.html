@@ -14,46 +14,46 @@
 
 
 
-    <body class="d-flex flex-column justify-content-center">
-        <!-- Navigation Bar and Search Area -->
-        <header >
-            <nav class="nav__Bar">
-                <div class="nav__Options">
-                    <div>
-                        <a href="" class="nav__Logo"><i class="fas fa-book-open"></i> zattix book's</a>
-                    </div>
-                    <a href="" class="nav__Home"><i class="fas fa-home"></i> home</a>
-                    <a href="" class="nav__Item"><i class="fas fa-th-large"></i> collections</a>
-                    <a href="" class="nav__Item"><i class="fas fa-shopping-cart"></i> purchase lists</a>
-                    <button class="nav__Button d-none d-md-block">POST AN AD
-                    </button>
+<body class="d-flex flex-column justify-content-center">
+    <!-- Navigation Bar and Search Area -->
+    <header>
+        <nav class="nav__Bar">
+            <div class="nav__Options">
+                <div>
+                    <a href="" class="nav__Logo"><i class="fas fa-book-open"></i> zattix book's</a>
                 </div>
-                <div class="log__Area d-none d-md-block">
-                    <a href=""><i class="fas fa-user-circle"></i></a>
-                    <a class="log__User">Login</a>
-                </div>
-            </nav>
-            <div class="search__Area__Search result__Search">
-                <h1>zattix</h1>
-                <p>Buying and Selling Couldn't be Simpler than this!</p>
-                <div class="search__Boxes">
-                    <select class="search__Options" name="books" id="categories">
-                        <option value="All">All genres</option>
-                        <option value="Sci-fi">Sci-Fi</option>
-                        <option value="Adventure">Adventure</option>
-                        <option value="Romance">Romance</option>
-                        <option value="Mistery">Mistery</option>
-                        <option value="Educational">Educational</option>
-                        <option value="History">Hitory</option>
-                    </select>
-                    <input class="search__Specify" type="text" placeholder=" What are you looking ? ">
-                    <input class="search__Author" type="text" placeholder="Authors">
-                    <a class="search__Button">Search</a>
-                </div>
+                <a href="" class="nav__Home"><i class="fas fa-home"></i> home</a>
+                <a href="" class="nav__Item"><i class="fas fa-th-large"></i> collections</a>
+                <a href="" class="nav__Item"><i class="fas fa-shopping-cart"></i> purchase lists</a>
+                <button class="nav__Button d-none d-md-block">POST AN AD
+                </button>
             </div>
-        </header>
+            <div class="log__Area d-none d-md-block">
+                <a href=""><i class="fas fa-user-circle"></i></a>
+                <a class="log__User">Login</a>
+            </div>
+        </nav>
+        <div class="search__Area__Search result__Search">
+            <h1>zattix</h1>
+            <p>Buying and Selling Couldn't be Simpler than this!</p>
+            <div class="search__Boxes">
+                <select class="search__Options" name="books" id="categories">
+                    <option value="All">All genres</option>
+                    <option value="Sci-fi">Sci-Fi</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Mistery">Mistery</option>
+                    <option value="Educational">Educational</option>
+                    <option value="History">Hitory</option>
+                </select>
+                <input class="search__Specify" type="text" placeholder=" What are you looking ? ">
+                <input class="search__Author" type="text" placeholder="Authors">
+                <a class="search__Button">Search</a>
+            </div>
+        </div>
+    </header>
 
-        <main>    
+    <main>
         <!-- Search Results -->
         <section class="search__Grid bg-light px-5">
             <div class="resu__check border-right">
@@ -184,119 +184,70 @@
 
 
 
-        <!-- Footer Slider -->
-        <footer>
-            <div class="py-4 mb-5 border-top border-bottom bg-white d-flex flex-row footer__Capsule">
-                <div class="footer__Left d-flex flex-column ml-5">
-                    <div class="footer__left__tittle d-flex">
-                        <i class="fas fa-book-open mr-2"></i>
-                        <p class="text-uppercase"> zattix</p>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minus amet, tempore magnam at
-                        explicabo sunt accusamus voluptas nisi minima dolorum porro dignissimos obcaecati vero eos
-                        numquam
-                        labore quo saepe?</p>
+    <!-- Footer Slider -->
+    <footer>
+        <div class="py-4 mb-5 border-top border-bottom bg-white d-flex footer__Capsule">
+            <div class="footer__Left d-flex flex-column">
+                <div class="footer__left__tittle d-flex">
+                    <i class="fas fa-book-open mr-2"></i>
+                    <p class="text-uppercase"> zattix</p>
                 </div>
-                <div class="footer__Right d-flex ">
-                    <div class="mx-2">
-                        <h6 class="pb-2">Categories</h6>
-                        <div class="footer__links d-flex">
-                            <div>
-                                <ul>
-                                    <li>
-                                        <a href="">Arts</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Romance</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Adventure</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Mystery</a>
-                                    </li>
-                                    <li>
-                                        <a href="">History</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Sci-Fi</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minus amet, tempore magnam at
+                    explicabo sunt accusamus voluptas nisi minima dolorum porro dignissimos obcaecati vero eos
+                    numquam
+                    labore quo saepe?</p>
+            </div>
+            <div class="footer__Right d-flex mx-auto">
+                <div class="mx-2">
+                    <h6 class="pb-2">Categories</h6>
+                    <div class="footer__links d-flex flex-column">
+                        <a href="">Arts</a>
+                        <a href="">Romance</a>
+                        <a href="">Adventure</a>
+                        <a href="">Mystery</a>
+                        <a href="">History</a>
+                        <a href="">Sci-Fi</a>
                     </div>
-                    <div class="">
-                        <h6 class="pb-2">Navigation</h6>
-                        <div class="footer__links d-flex">
-                            <div>
-                                <ul>
-                                    <li>
-                                        <a href="">Search</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Secctions</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Comments</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Reviews</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Book of the Week</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Jobs</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                </div>
+                <div class="mx-2">
+                    <h6 class="pb-2">Navigation</h6>
+                    <div class="footer__links d-flex flex-column">
+                        <a href="">Search</a>
+                        <a href="">Secctions</a>
+                        <a href="">Comments</a>
+                        <a href="">Reviews</a>
+                        <a href="">Book of the Week</a>
+                        <a href="">Jobs</a>
                     </div>
-                    <div class="">
-                        <h6 class="pb-2">Countries</h6>
-                        <div class="footer__links d-flex">
-                            <div>
-                                <ul>
-                                    <li>
-                                        <a href="">U.S.</a>
-                                    </li>
-                                    <li>
-                                        <a href="">United Kingdom</a>
-                                    </li>
-                                    <li>
-                                        <a href="">España</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Portugal</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Italia</a>
-                                    </li>
-                                    <li>
-                                        <a href="">France</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                </div>
+                <div class="mx-2">
+                    <h6 class="pb-2">Countries</h6>
+                    <div class="footer__links d-flex flex-column">
+                        <a href="">U.S.</a>
+                        <a href="">United Kingdom</a>
+                        <a href="">España</a>
+                        <a href="">Portugal</a>
+                        <a href="">Italia</a>
+                        <a href="">France</a>
                     </div>
                 </div>
             </div>
-            
+        </div>
 
-            <p class="Copyright">Copyright 2020 Zattix.com. All Rights Reserved Designed by Mohamad Awad.</p>
+        <p class="Copyright">Copyright 2020 Zattix.com. All Rights Reserved Designed by Mohamad Awad.</p>
 
-        </footer>
+    </footer>
 
-        <!-- JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-        </script>
-    </body>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
