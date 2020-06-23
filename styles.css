@@ -1,5 +1,11 @@
+
 html {
   overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  width: 100%;
 }
 
 .nav__Bar {
@@ -205,7 +211,20 @@ html {
   max-height: 20rem;
 }
 
+.hot__Adds {
+  max-height: 20rem;
+}
+
 .hot__Add button {
+  margin: 0 -0.1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #d35266;
+}
+
+.hot__Adds button {
   margin: 0 -0.1rem;
   padding: 0.4rem 1rem;
   border: none;
@@ -348,7 +367,6 @@ html {
 .footer__Left {
   font-size: 0.8rem;
   justify-content: center;
-  width: 30%;
   text-align: justify;
 }
 
@@ -372,18 +390,18 @@ html {
 .footer__Right ul {
   list-style: none;
   font-size: 0.8rem;
-  margin-left: -2.4rem;
+  
 }
 
 .footer__links {
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .Copyright {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: 0 auto;
   color: gray;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 .search__Grid {
@@ -440,6 +458,10 @@ html {
     width: 100%;
   }
 
+  .hot__Adds img {
+    width: 100%;
+  }
+
   .result__Search {
     margin-left: -4rem;
   }
@@ -447,29 +469,25 @@ html {
   .search__Boxes {
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: 2%;
-    min-width: 220px;
   }
 
   .search__Options {
     width: 100%;
     text-align: center;
-    min-width: 220px;
   }
 
   .search__Specify {
     width: 100%;
     margin-top: 0.3%;
     text-align: center;
-    min-width: 220px;
   }
 
   .search__Button {
     width: 100%;
     margin-top: 0.3%;
     text-align: center;
-    min-width: 220px;
   }
 
   .search__Author {
@@ -526,7 +544,8 @@ html {
 
   .resu__Container div {
     max-height: 275px;
-    white-space: nowrap;
+    white-space: unset;
+    justify-content: flex-start;
   }
 
   .resu__check {
@@ -546,7 +565,15 @@ html {
     margin-bottom: -0.1rem;
   }
 
-  .footer__Capsule {
-    display: none;
+  .resu__Content h2 {
+    font-size: 1rem;
+  }
+
+  .hot__Adds {
+    margin-top: -1rem;
+  }
+
+  .footer__Right {
+    flex-direction: column;
   }
 }
