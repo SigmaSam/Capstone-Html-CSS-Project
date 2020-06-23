@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zattix Book's</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/823aef80f3.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+
+
+<body class="d-flex flex-column justify-content-center">
+    <!-- Navigation Bar and Search Area -->
+    <header>
+        <nav class="nav__Bar">
+            <div class="nav__Options">
+                <div>
+                    <a href="" class="nav__Logo"><i class="fas fa-book-open"></i> zattix book's</a>
+                </div>
+                <a href="" class="nav__Home"><i class="fas fa-home"></i> home</a>
+                <a href="" class="nav__Item"><i class="fas fa-th-large"></i> collections</a>
+                <a href="" class="nav__Item"><i class="fas fa-shopping-cart"></i> purchase lists</a>
+                <button class="nav__Button d-none d-md-block">POST AN AD
+                </button>
+            </div>
+            <div class="log__Area d-none d-md-block">
+                <a href=""><i class="fas fa-user-circle"></i></a>
+                <a class="log__User">Login</a>
+            </div>
+        </nav>
+        <div class="search__Area__Search result__Search">
+            <h1>zattix</h1>
+            <p>Buying and Selling Couldn't be Simpler than this!</p>
+            <div class="search__Boxes">
+                <select class="search__Options" name="books" id="categories">
+                    <option value="All">All genres</option>
+                    <option value="Sci-fi">Sci-Fi</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Mistery">Mistery</option>
+                    <option value="Educational">Educational</option>
+                    <option value="History">Hitory</option>
+                </select>
+                <input class="search__Specify" type="text" placeholder=" What are you looking ? ">
+                <input class="search__Author" type="text" placeholder="Authors">
+                <a class="search__Button">Search</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Search Results -->
+        <section class="search__Grid bg-light px-5">
+            <div class="resu__check border-right">
+                <div class="d-flex flex-column">
+                    <h6 class="font-weight border-bottom font-weight-bold pb-2 mt-2">Author</h6>
+                    <label for="first"><input type="checkbox" id="first"> Mark Twain</label>
+                    <label for="first2"><input type="checkbox" id="first2"> Mark Twain</label>
+                    <label for="first3"><input type="checkbox" id="first3"> Mark Twain</label>
+                    <label for="first4"><input type="checkbox" id="first4"> Mark Twain</label>
+                    <label class="pb-3" for="first20"><input type="checkbox" id="first20"> Mark Twain</label>
+                </div>
+                <div class="d-flex flex-column">
+                    <h6 class="font-weight border-bottom font-weight-bold pb-2">Genere</h6>
+                    <label for="first52"><input type="checkbox" id="first52"> Romance</label>
+                    <label for="first6"><input type="checkbox" id="first6"> Sci-fi</label>
+                    <label for="first7"><input type="checkbox" id="first7"> Adventure</label>
+                    <label for="first8"><input type="checkbox" id="first8"> History</label>
+                    <label class="pb-" for="first51"><input type="checkbox" id="first51"> Educational</label>
+                </div>
+                <div class="d-flex flex-column">
+                    <h6 class="font-weight border-bottom font-weight-bold pb-2">Price Range</h6>
+                    <label for="first9"><input type="checkbox" id="first9"> Free</label>
+                    <label for="first10"><input type="checkbox" id="first10"> 1 - 5$</label>
+                    <label for="first11"><input type="checkbox" id="first11"> 5 - 15$</label>
+                    <label for="first12"><input type="checkbox" id="first12"> 15 - 30$</label>
+                    <label class="pb-13" for="first5"><input type="checkbox" id="first5"> 30 - 100$</label>
+                </div>
+                <div class="d-flex flex-column">
+                    <h6 class="font-weight border-bottom font-weight-bold py-2">Condition</h6>
+                    <label for="first13"><input type="checkbox" id="first13"> Used</label>
+                    <label for="first14"><input type="checkbox" id="first14"> New</label>
+                    <label class="pb-3" for="first41"><input type="checkbox" id="first41"> Restored</label>
+                </div>
+
+            </div>
+            <div class="resu__Container">
+                <div class="d-flex p-2">
+                    <img class="img-fluid"
+                        src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781604335736/mark-twain-christmas-9781604335736_hr.jpg"
+                        alt="">
+                    <div class="resu__Content d-flex flex-column px-2">
+                        <h2>Mistery Book, Mark Twain</h2>
+                        <p class="card__Used">Used</p>
+                        <p class="cont__Context d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsum dolor iusto modi soluta suscipit dicta perspiciatis nesciunt ea tempore cum!</p>
+                        <p class="font-weight-bold">Buenos Aires:<span>Cordoba, 3527</span></p>
+                        <p class="cont__Date">13, November 2028</p>
+                        <div class="hot__Adds pt-4">
+                            <button class="hot__PriceS">
+                                999$
+                            </button>
+                            <button class="hot__PurchaseS">
+                                Purchase Now <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="hot__Cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex p-2">
+                    <img class="img-fluid"
+                        src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781604335736/mark-twain-christmas-9781604335736_hr.jpg"
+                        alt="">
+                    <div class=" resu__Content d-flex flex-column px-2">
+                        <h2>Mistery Book, Mark Twain</h2>
+                        <p class="card__Used">Used</p>
+                        <p class="cont__Context d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsum dolor iusto modi soluta suscipit dicta perspiciatis nesciunt ea tempore cum!</p>
+                        <p class="font-weight-bold">Buenos Aires:<span>Cordoba, 3527</span></p>
+                        <p class="cont__Date">13, November 2028</p>
+                        <div class="hot__Adds pt-4">
+                            <button class="hot__PriceS">
+                                999$
+                            </button>
+                            <button class="hot__PurchaseS">
+                                Purchase Now <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="hot__Cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex p-2">
+                    <img class="img-fluid"
+                        src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781604335736/mark-twain-christmas-9781604335736_hr.jpg"
+                        alt="">
+                    <div class="resu__Content d-flex flex-column px-2">
+                        <h2>Mistery Book, Mark Twain</h2>
+                        <p class="card__Used">Used</p>
+                        <p class="cont__Context d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsum dolor iusto modi soluta suscipit dicta perspiciatis nesciunt ea tempore cum!</p>
+                        <p class="font-weight-bold">Buenos Aires:<span>Cordoba, 3527</span></p>
+                        <p class="cont__Date">13, November 2028</p>
+                        <div class="hot__Adds pt-4">
+                            <button class="hot__PriceS">
+                                999$
+                            </button>
+                            <button class="hot__PurchaseS">
+                                Purchase Now <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="hot__Cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex p-2">
+                    <img class="img-fluid"
+                        src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781604335736/mark-twain-christmas-9781604335736_hr.jpg"
+                        alt="">
+                    <div class="resu__Content d-flex flex-column px-2">
+                        <h2>Mistery Book, Mark Twain</h2>
+                        <p class="card__Used">Used</p>
+                        <p class="cont__Context d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Ipsum dolor iusto modi soluta suscipit dicta perspiciatis nesciunt ea tempore cum!</p>
+                        <p class="font-weight-bold">Buenos Aires:<span>Cordoba, 3527</span></p>
+                        <p class="cont__Date">13, November 2028</p>
+                        <div class="hot__Adds pt-4">
+                            <button class="hot__PriceS">
+                                999$
+                            </button>
+                            <button class="hot__PurchaseS">
+                                Purchase Now <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="hot__Cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Footer Slider -->
+    <footer>
+        <div class="py-4 mb-5 border-top border-bottom bg-white d-flex footer__Capsule">
+            <div class="footer__Left d-flex flex-column">
+                <div class="footer__left__tittle d-flex">
+                    <i class="fas fa-book-open mr-2"></i>
+                    <p class="text-uppercase"> zattix</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minus amet, tempore magnam at
+                    explicabo sunt accusamus voluptas nisi minima dolorum porro dignissimos obcaecati vero eos
+                    numquam
+                    labore quo saepe?</p>
+            </div>
+            <div class="footer__Right d-flex mx-auto">
+                <div class="mx-2">
+                    <h6 class="pb-2">Categories</h6>
+                    <div class="footer__links d-flex flex-column">
+                        <a href="">Arts</a>
+                        <a href="">Romance</a>
+                        <a href="">Adventure</a>
+                        <a href="">Mystery</a>
+                        <a href="">History</a>
+                        <a href="">Sci-Fi</a>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <h6 class="pb-2">Navigation</h6>
+                    <div class="footer__links d-flex flex-column">
+                        <a href="">Search</a>
+                        <a href="">Secctions</a>
+                        <a href="">Comments</a>
+                        <a href="">Reviews</a>
+                        <a href="">Book of the Week</a>
+                        <a href="">Jobs</a>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <h6 class="pb-2">Countries</h6>
+                    <div class="footer__links d-flex flex-column">
+                        <a href="">U.S.</a>
+                        <a href="">United Kingdom</a>
+                        <a href="">España</a>
+                        <a href="">Portugal</a>
+                        <a href="">Italia</a>
+                        <a href="">France</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="Copyright">Copyright 2020 Zattix.com. All Rights Reserved Designed by Mohamad Awad.</p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
